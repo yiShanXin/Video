@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/video_padd_240"
+        android:background="@mipmap/top_bg"
+        android:paddingTop="@dimen/video_padd_80"
+        android:paddingBottom="@dimen/video_padd_80"
+        android:paddingLeft="@dimen/video_padd_120"
+        android:paddingRight="@dimen/video_padd_120"
+        android:layout_gravity="center_vertical">
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="@dimen/video_padd_10"
+            android:id="@+id/edit_http"
+            android:layout_weight="0.25"
+            android:text="http://192.168.1.105/demo.json" />
+        <Button
+            android:id="@+id/btn_update"
+            android:layout_width="match_parent"
+            android:text="界面列表更新"
+            android:gravity="center"
+            android:layout_weight="0.75"
+            android:layout_height="fill_parent" />
+
+
+    </LinearLayout>
+</LinearLayout>

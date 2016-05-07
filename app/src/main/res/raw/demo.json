@@ -1,0 +1,11 @@
+{"program_list":[
+  {"ID":"1","program_name":"CCTV---1","program":"http://192.168.1.6/usr/local/http/playlist.m3u8"},
+  {"ID":"2","program_name":"CCTV---2","program":"http://192.168.1.2/usr/local/http/playlist.m3u8"},
+  {"ID":"3","program_name":"CCTV---3","program":"http://192.168.1.2/usr/local/http/playlist.m3u8"},
+  {"ID":"4","program_name":"CCTV---4","program":"http://192.168.1.2/usr/local/http/playlist.m3u8"},
+  {"ID":"5","program_name":"CCTV---5","program":"http://192.168.1.2/usr/local/http/playlist.m3u8"},
+  {"ID":"6","program_name":"CCTV---6","program":"http://192.168.1.2/usr/local/http/playlist.m3u8"},
+  {"ID":"7","program_name":"CCTV---7","program":"http://192.168.1.2/usr/local/http/playlist.m3u8"},
+  {"ID":"8","program_name":"CCTV---8","program":"http://192.168.1.2/usr/local/http/playlist.m3u8"}
+]
+}

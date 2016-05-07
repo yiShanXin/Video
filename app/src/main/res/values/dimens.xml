@@ -1,0 +1,20 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+    <dimen name="video_padd_10">10dp</dimen>
+    <dimen name="video_padd_2">2dp</dimen>
+    <dimen name="video_padd_30">30dp</dimen>
+    <dimen name="video_padd_50">50dp</dimen>
+    <dimen name="video_padd_60">60dp</dimen>
+    <dimen name="video_padd_80">80dp</dimen>
+    <dimen name="video_padd_120">120dp</dimen>
+    <dimen name="video_padd_160">160dp</dimen>
+    <dimen name="video_padd_200">200dp</dimen>
+    <dimen name="video_padd_240">240dp</dimen>
+    <dimen name="video_padd_280">280dp</dimen>
+    <dimen name="video_padd_320">320dp</dimen>
+</resources>
