@@ -136,6 +136,10 @@ public class FlytvVideoActivity extends Activity {
                     }
                     handler.sendEmptyMessageDelayed(101, 700);
                     break;
+                case 102:
+                    // 重新播放
+                    play();
+                    break;
             }
 
         }
@@ -310,6 +314,7 @@ public class FlytvVideoActivity extends Activity {
             @Override
             public boolean onError(MediaPlayer mp, int what, int extra) {
                 LogUtil.e("videoView  播放失败!");
+                handler.sendEmptyMessageDelayed(102, 15000);
                 return false;
             }
         });
@@ -318,6 +323,7 @@ public class FlytvVideoActivity extends Activity {
             @Override
             public boolean onError(MediaPlayer mp, int what, int extra) {
                 LogUtil.e("videoView  播放失败!");
+                handler.sendEmptyMessageDelayed(102, 15000);
                 return false;
             }
         });
@@ -737,6 +743,7 @@ public class FlytvVideoActivity extends Activity {
         handler.removeMessages(10);
         handler.removeMessages(100);
         handler.removeMessages(101);
+        handler.removeMessages(102);
 
     }
 }
